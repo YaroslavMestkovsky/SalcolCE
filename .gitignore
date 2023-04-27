@@ -1,14 +1,8 @@
 *
 !Salcol_CE.module
 !changelog.txt
-!SCE_update.exe
 !/Salcol_CE/data/attrib/
 !/Salcol_CE/data/attrib/**
-
-!/Profiles/
-!/Profiles/**
-/Profiles/Profile99
-/Profiles/Profile99/**
 
 !/Salcol_CE/
 !/Salcol_CE/**
