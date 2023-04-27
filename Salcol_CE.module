@@ -1,0 +1,25 @@
+[global]
+
+UIName = Salcols Community Edition
+Description = The Salcols Community Edition project, developed by the Salcols Community.
+DllName = WXPMod
+;; DllName = WXPMod_DCMod
+Playable = 1
+ModFolder = Salcol_CE
+ModVersion = version 6.5.1
+TextureFE = Art/UI/Textures/Title_winter_assault.tga
+TextureIcon =
+
+DataFolder.1 = Data
+DataFolder.2 = Data\Ai
+DataFolder.3 = Data\Scenarios
+
+ArchiveFile.1 = DataSalcol
+ArchiveFile.2 = DataSalcolAI
+ArchiveFile.3 = DataSalcolScenarios
+
+RequiredMod.1 = DXP2
+RequiredMod.2 = W40k
+
+
+
