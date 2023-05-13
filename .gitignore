@@ -17,3 +17,6 @@
 /Salcol_CE/DataSalcol.sga
 /Salcol_CE/DataSalcolAI.sga
 /Salcol_CE/DataSalcolScenarios.sga
+/Salcol_CE/data/camera_high.lua
+/Salcol_CE/data/camera_low.lua
+/Salcol_CE/data/camera_me.lua
