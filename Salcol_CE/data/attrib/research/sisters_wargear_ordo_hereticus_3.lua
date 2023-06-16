@@ -1,0 +1,16 @@
+GameData = Inherit([[]])
+GameData["modifiers"] = Reference([[tables\modifier_table.lua]])
+GameData["requirements"] = Reference([[tables\requirements.lua]])
+GameData["time_cost"] = Reference([[tables\time_cost_table.lua]])
+GameData["time_cost"]["cost"]["faith"] = 160
+GameData["time_cost"]["cost"]["power"] = 130
+GameData["time_cost"]["cost"]["requisition"] = 180
+GameData["time_cost"]["cost"]["souls"] = 0
+GameData["time_cost"]["time_seconds"] = 4
+GameData["ui_hotkey_name"] = [[hotkey_a]]
+GameData["ui_index_hint"] = 9
+GameData["ui_info"] = Reference([[tables\ui_info_table.lua]])
+GameData["ui_info"]["help_text_list"]["text_01"] = [[The inquisitor and her squad equip a better armour.]]
+GameData["ui_info"]["help_text_list"]["text_02"] = [[Melee and ranged protection is provided]]
+GameData["ui_info"]["icon_name"] = [[space_marine_icons/marine_wargear07.tga]]
+GameData["ui_info"]["screen_name_id"] = [[Squad wargear: Artificer armor]]
