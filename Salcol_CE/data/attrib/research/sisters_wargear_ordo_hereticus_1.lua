@@ -1,0 +1,14 @@
+GameData = Inherit([[]])
+GameData["modifiers"] = Reference([[tables\modifier_table.lua]])
+GameData["requirements"] = Reference([[tables\requirements.lua]])
+GameData["time_cost"] = Reference([[tables\time_cost_table.lua]])
+GameData["time_cost"]["cost"]["faith"] = 330
+GameData["time_cost"]["cost"]["souls"] = 0
+GameData["time_cost"]["time_seconds"] = 3
+GameData["ui_hotkey_name"] = [[hotkey_q]]
+GameData["ui_index_hint"] = 1
+GameData["ui_info"] = Reference([[tables\ui_info_table.lua]])
+GameData["ui_info"]["help_text_list"]["text_01"] = [[Allow the Ordo Hereticus the use of the "Ardent Flame" spell]]
+GameData["ui_info"]["help_text_list"]["text_02"] = [[]]
+GameData["ui_info"]["icon_name"] = [[sisters_icons\holy_murder_icon.tga]]
+GameData["ui_info"]["screen_name_id"] = [[Learn spell: Ardent blade]]

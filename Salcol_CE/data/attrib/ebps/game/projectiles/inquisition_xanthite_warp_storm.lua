@@ -1,0 +1,14 @@
+GameData = Inherit([[]])
+GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
+GameData["ability_ext"]["abilities"]["ability_01"] = [[abilities\inquisition_xanthite_inquisitor_4_aura.lua]]
+GameData["entity_blueprint_ext"] = Reference([[ebpextensions\entity_blueprint_ext.lua]])
+GameData["entity_blueprint_ext"]["animator"] = [[Races\Chaos\Troops\Infernal_Eye]]
+GameData["projectile_ext"] = Reference([[ebpextensions\projectile_ext.lua]])
+GameData["projectile_ext"]["death_event_name"] = [[Tau\Abilities\Tau_Skyray_Missles]]
+GameData["projectile_ext"]["lifetime_as_percent_of_max_range_time"] = 200
+GameData["projectile_ext"]["min_damage_value"] = 25
+GameData["projectile_ext"]["rotation_speed"] = 20
+GameData["projectile_ext"]["speed"] = 10
+GameData["sim_entity_ext"] = Reference([[ebpextensions\sim_entity_ext.lua]])
+GameData["sim_entity_ext"]["is_in_spatial_bucket"] = false
+GameData["type_ext"] = Reference([[ebpextensions\type_ext.lua]])

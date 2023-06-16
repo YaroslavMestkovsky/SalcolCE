@@ -1,0 +1,17 @@
+GameData = Inherit([[]])
+GameData["modifiers"] = Reference([[tables\modifier_table.lua]])
+GameData["requirements"] = Reference([[tables\requirements.lua]])
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_1"]["structure_name"] = [[ebps\races\necrons\structures\necron_summoning_core_big.lua]]
+GameData["time_cost"] = Reference([[tables\time_cost_table.lua]])
+GameData["time_cost"]["cost"]["faith"] = 0
+GameData["time_cost"]["cost"]["power"] = 400
+GameData["time_cost"]["cost"]["souls"] = 0
+GameData["ui_hotkey_name"] = [[hotkey_e]]
+GameData["ui_index_hint"] = 3
+GameData["ui_info"] = Reference([[tables\ui_info_table.lua]])
+GameData["ui_info"]["help_text_list"]["text_01"] = [[$18112089]] -- - Equips the Destroyer Lord with the Lightning Storm ability.
+GameData["ui_info"]["help_text_list"]["text_02"] = [[$18112088]] -- - Devastating blast of electrical energy pulses that deal good damage to all affected targets.
+GameData["ui_info"]["help_text_list"]["text_03"] = [[$18210591]] -- - Requires - Hero: Level 5
+GameData["ui_info"]["icon_name"] = [[necron_icons/necron_lightning_storm_research]]
+GameData["ui_info"]["screen_name_id"] = [[$18112087]] -- Lightning Storm Artifact
