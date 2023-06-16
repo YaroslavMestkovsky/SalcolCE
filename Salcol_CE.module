@@ -6,7 +6,7 @@ DllName = WXPMod
 ;; DllName = WXPMod_DCMod
 Playable = 1
 ModFolder = Salcol_CE
-ModVersion = version 7.3
+ModVersion = version 7.4
 TextureFE = Art/UI/Textures/Title_winter_assault.tga
 TextureIcon =
 
@@ -20,6 +20,3 @@ ArchiveFile.3 = DataSalcolScenarios
 
 RequiredMod.1 = DXP2
 RequiredMod.2 = W40k
-
-
-
